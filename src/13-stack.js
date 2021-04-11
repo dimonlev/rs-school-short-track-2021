@@ -28,8 +28,7 @@ class Stack {
   }
 
   peek() {
-    const el = this.arr[this.arr.length - 1];
-    return el;
+    return this.arr[this.arr.length - 1];
   }
 }
 
